@@ -12,14 +12,10 @@
 #define __Device_H__
 
 #ifdef __cplusplus
-extern "C"
+extern "C" 
 {
 #endif
-    //==============================================================================
-    // Include files
-    // 使用时请取消下面的注释
-    // #include "cvidef.h"
-    //==============================================================================
+    
     int G_initCOM(int comPort);
     int G_inputCOM(int comPort, int command);
     int G_getCOCA(int *comPort);
@@ -46,16 +42,9 @@ extern "C"
     int G_switchMode(int comPort, int mode);
     int G_resetAll(int comPort);
     int G_setPC8(int comPort, int status);
-    //==============================================================================
-    // Types
-
-    //==============================================================================
-    // External variables
-
-    //==============================================================================
-    // Global functions
+    
 #ifdef __cplusplus
 }
 #endif
 
-#endif /* ndef __Device_H__ */
+#endif 

@@ -1,9 +1,9 @@
 //==============================================================================
 //
-// Title:		G_comlib.h
-// Purpose:		Port communication command library of GOCA
+// Title:       G_comlib.h
+// Purpose:     Port communication command library of GOCA
 //
-// Created on:	2020/3/5 by ZhaoGuoChen.
+// Created on:  2020/3/5 by ZhaoGuoChen.
 // Copyright:	. All Rights Reserved.
 //
 //==============================================================================
@@ -12,15 +12,10 @@
 #define __constant_H__
 
 #ifdef __cplusplus
-extern "C"
+extern "C" 
 {
 #endif
-    //==============================================================================
-    // Include files
-    // 使用时请取消下面的注释
-    // #include "cvidef.h"
-    //==============================================================================
-    // Constants
+    
     const int getGOCA = 0xA00000;
 
     const int toMBC_h = 0xA1;
@@ -102,17 +97,10 @@ extern "C"
     const int PC8_switch_O = 0xAC0001;
     const int PC8_switch_C = 0xAC0002;
     const int PC8_switch_L = 0xAC0003;
-    //==============================================================================
-    // Types
-
-    //==============================================================================
-    // External variables
-
-    //==============================================================================
-    // Global functions
+    
 
 #ifdef __cplusplus
 }
 #endif
 
-#endif /* ndef __constant_H__ */
+#endif 
